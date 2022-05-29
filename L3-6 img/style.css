@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+section{
+  /* emmet w600 */
+  width: 600px;
+  /* emmet:m0-auto */
+  margin:0 auto;
+  /* emmet p2em */
+  padding:2em;
+  /* emmet:bg#pink */
+  background:rgb(243, 194, 202);
+
+}
+
+img{
+    width: 320px;
+    /*emmet: ml1em */
+    margin-left: 1em;
+    /*emmet: mb1em */
+    margin-bottom:1em;
+    /* emmet: flr*/
+    float: right;
+}
+
+p{
+  /* emmet: lh 1.8*/
+  line-height: 1.8;
+}
+
+section::after{
+
+  content:"";
+  /* emmet: db */
+  display: block;
+  clear:both;
+  float:none;
+}

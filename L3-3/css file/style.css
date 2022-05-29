@@ -1,0 +1,9 @@
+@charset "uft-8";
+
+section {background-color:#3eb6bd;  }
+h1 { color :#fff; }
+em {
+    font-weight: bold;
+    width:200px;
+    display: inline-block;
+}
